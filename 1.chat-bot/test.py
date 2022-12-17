@@ -60,7 +60,7 @@ def list_command(update: Update, context: CallbackContext) -> None:
 def main() -> None:
     """Start the bot."""
     # Create the Updater and pass it your bot's token.
-    updater = Updater("5436263461:AAE4PFugz3N_7KnVkASk-LKgpTIWNhBE3uY")
+    updater = Updater("")
 
     # Get the dispatcher to register handlers
     dispatcher = updater.dispatcher
